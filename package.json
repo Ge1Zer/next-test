@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/Ge1Zer/next-test/issues"
   },
-  "homepage": "https://github.com/Ge1Zer/next-test#readme",
+  "homepage": "https://next-test-hazel.vercel.app",
   "dependencies": {
     "next": "^9.5.3",
     "react": "^16.13.1",
