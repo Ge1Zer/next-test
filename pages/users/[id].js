@@ -1,11 +1,16 @@
-import Link from "next";
+import Layout from "../../components/Layout";
 
 export default function User({user}){
     return(
-        <>
-            hello { user }
-            <Link href={'/'} as={'/'}><a>Home</a></Link>
+        <Layout>
+            user{user}
 
-        </>
+        </Layout>
     )
 }
+User.getInitialProps = async ({query}) =>{
+    return{
+        user:query.id
+    }
+}
+
